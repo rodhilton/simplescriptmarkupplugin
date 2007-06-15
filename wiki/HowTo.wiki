@@ -16,6 +16,6 @@ Then log into your wordpress account, go to "plugins" and enable the Simple Scri
 
 To use, simply make a post and include your SimpleScriptMarkup text inside of an <ssm> tag.  The plugin, when enabled, will automatically parse this text and output it, surrounding each element with an appropriate DIV tag.
 
-The DIV tags reference classes.  Rather than force any kind of formatting, the SSM Plugin allows you to control how screenplays should look on your site.  Each element (action, character, parenthetical, dialogue, etc) gets its own class.
+The DIV tags reference classes.  Rather than force any kind of formatting, the SSM Plugin allows you to control how screenplays should look on your site.  Each element (action, character, parenthetical, dialogue, etc) gets its own class, as does the entire script (ssmscript class).
 
 For an example css file, check the 'Downloads' link above and grab the [http://simplescriptmarkupplugin.googlecode.com/files/ssmstyle.css ssmstyle.css] file.
