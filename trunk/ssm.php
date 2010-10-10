@@ -69,6 +69,7 @@ class ScriptOutputter {
     return $text;
   }
 
+  //This method should be renamed.  It really represents 'contains no lower case' but even that's not quite right.
   private function isAllCaps($text) {
     if (preg_match("/^[\d\sA-Z:\-.'\(\)#;,0-9&\/’]+$/", $text)) {
       return true;
